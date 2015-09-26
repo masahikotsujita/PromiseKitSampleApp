@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (2.0.2)
+  - OMGHTTPURLRQ (3.0.0):
+    - OMGHTTPURLRQ/RQ (= 3.0.0)
+  - OMGHTTPURLRQ/FormURLEncode (3.0.0)
+  - OMGHTTPURLRQ/RQ (3.0.0):
+    - OMGHTTPURLRQ/FormURLEncode
+    - OMGHTTPURLRQ/UserAgent
+  - OMGHTTPURLRQ/UserAgent (3.0.0)
+  - PromiseKit (3.0.0):
+    - PromiseKit/Foundation (= 3.0.0)
+    - PromiseKit/QuartzCore (= 3.0.0)
+    - PromiseKit/UIKit (= 3.0.0)
+  - PromiseKit/CorePromise (3.0.0)
+  - PromiseKit/Foundation (3.0.0):
+    - OMGHTTPURLRQ (~> 3.0.0)
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (3.0.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (3.0.0):
+    - PromiseKit/CorePromise
+
+DEPENDENCIES:
+  - Alamofire
+  - PromiseKit (from `https://github.com/mxcl/PromiseKit.git`, tag `swift-2.0-beta5`)
+
+EXTERNAL SOURCES:
+  PromiseKit:
+    :git: https://github.com/mxcl/PromiseKit.git
+    :tag: swift-2.0-beta5
+
+CHECKOUT OPTIONS:
+  PromiseKit:
+    :git: https://github.com/mxcl/PromiseKit.git
+    :tag: swift-2.0-beta5
+
+SPEC CHECKSUMS:
+  Alamofire: 8edbab00802a752bb5240cc2abe70e7e881488ad
+  OMGHTTPURLRQ: 45cd892e5643206a5a359307621df7678625ebec
+  PromiseKit: ca8e463ed27e3ab5d05ebeb237e4d50447822e4d
+
+COCOAPODS: 0.38.2
